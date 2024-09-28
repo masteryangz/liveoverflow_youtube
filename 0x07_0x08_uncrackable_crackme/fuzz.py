@@ -1,7 +1,7 @@
 import random
 import os
 
-os.system("cp license_2 license_2_fuzz")
+#os.system("cp license_2 license_2_fuzz")
 
 def flip_byte(in_bytes):
 	i = random.randint(0,len(in_bytes))
